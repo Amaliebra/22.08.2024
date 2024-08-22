@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#kort {
+  background-color: rgb(189, 129, 174);
+  width: 400px;
+  height: 200px;
+  display: flex;
+  border: 2px dotted salmon;
+  padding: 10px 5px;
+  margin: 20px auto;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bilde {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
