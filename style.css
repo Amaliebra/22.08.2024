@@ -5,20 +5,52 @@
 }
 
 #kort {
-  background-color: rgb(189, 129, 174);
+  background-color: #b1b1b1;
+  background-image: linear-gradient(
+    90deg,
+    #b1b1b1 0%,
+    #c796c3 46%,
+    #ffcc70 100%
+  );
   width: 400px;
   height: 200px;
   display: flex;
-  border: 2px dotted salmon;
+  border: 2px inset salmon;
   padding: 10px 5px;
   margin: 20px auto;
   border-radius: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .bilde {
-  width: 100px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px inset salmon;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #ffcc70;
+}
+
+.navn {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffcc70;
+}
+
+.quote {
+  margin-top: 10px;
+}
+
+.img-container {
   height: 100px;
+  width: 100px;
+  overflow: hidden;
   border-radius: 50%;
 }
